@@ -1,0 +1,516 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   /*HEADER START*/
+    .c_dd_menu[data-bs-popper] {
+    top: 50px;
+    left: -10px;
+}
+   
+.c_dd_menu {
+    min-width: 280px;
+  }
+   /*HEADER END*/
+   /*SLIDER START*/
+   .s_1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.s_1 h1 {
+    font-size: 46px;
+    
+}
+
+   /*SLIDER END*/
+   /*SERVICE START*/
+   .c_p {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.s_service {
+   margin-bottom: 20px;
+}
+   /*SERVICE END*/
+    /*ABOUT US START*/
+    .about_text p {
+    margin-bottom: 34px;
+    margin-right: 0;
+    font-size: 16px;
+}
+
+.about_text {
+    text-align: center;
+}
+    /*ABOUT US END*/
+    /*SERVICE START*/
+    .service_icon {
+    text-align: center;
+}
+.s_text h5 {
+    margin-left: 0;
+   text-align: center;
+}
+.service_p {
+   text-align: center;
+}
+.single_service {
+    margin-top: 50px;
+}
+    /*SERVICE END*/
+    /*WHO WORK WITH US START*/
+    .w_h1 {
+        font-size: 29px;
+    }
+    .w_single {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+    /*WHO WORK WITH US END*/
+    /*BUY START*/
+    .buy_btn {
+    margin: 0 auto;    
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 35px;
+}
+.b_h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    }
+    /*BUY END*/
+    /*SLIDER PANNEL START*/
+    .slider_text h2 {
+        margin-top: 15px;
+    text-align: center;
+}
+.text_p {
+    text-align: center;
+}
+.slider_span {
+    text-align: center;
+    display: block;
+}
+.slider_p {
+    margin-right: 0;
+    text-align: center;
+}
+.slider_p_2 {
+    margin-right: 0;
+    text-align: center;
+}
+.custom_btn1 {
+    display: none;
+}
+.custom_btn2 {
+    display: none;
+}
+.s_design {
+   display: none;
+    }
+    /*SLIDER PANNEL END*/
+    /*CONTACT US START*/
+    .c3_input {
+   width: 280px;
+    }
+    .c_input {
+   width: 280px;
+    }
+    .c2_input {
+   width: 280px;
+    }
+    /*CONTACT IS END*/
+    /*FOOTER START*/
+    .f_icon {
+    margin-bottom: 50px;
+   }
+   .f_icon i {
+    transition: .4s;
+    font-size: 26px;
+    border: 1px solid white;
+    color: white;
+    padding: 4px;
+    margin-right: 10px;
+}
+    /*FOOTER END*/
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*HEADER START*/
+     .c_dd_menu[data-bs-popper] {
+    top: 60px;
+    left: 0px;
+}
+    /*HEADER END*/
+    /*SERVICE START*/
+    .arrow2 {
+   left: 100px !important;
+    }
+   .s_service {
+    
+    margin-bottom: 50px;
+}
+
+.s_1 h1 {
+    
+    font-size: 48px;
+    
+}
+
+    /*SERVICE END*/
+    /*ABOUT US START*/
+    .about_text p {
+    margin-bottom: 34px;
+    margin-right: 0;
+}
+
+.about_text {
+    text-align: center;
+}
+.about_text h2 {
+   margin-top: 34px;
+}
+    /*ABOUT US END*/
+    /*BLOG START*/
+    .b_btn {
+    padding: 10px 8px;
+    
+}
+    /*BLOG END*/
+     /*SERVICE START*/
+    .service_icon {
+    text-align: center;
+}
+.s_text h5 {
+    margin-left: 0;
+   text-align: center;
+}
+.service_p {
+   text-align: center;
+}
+.single_service {
+    margin-top: 50px;
+}
+    /*SERVICE END*/
+    .w_single {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.w_icon {
+   bottom: 50px;
+   left: 2px;
+}
+/*PRICING START*/
+.p_btn {
+   width: 165px;
+    }
+/*PRICING END*/
+/*BUY START*/
+.b_h4 {
+    margin-top: 77px;
+    margin-bottom: 75px;
+    }
+    .buy_btn {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    }
+/*BUY END*/
+/*SLIDER PANNEL START*/
+      .slider_text h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+.text_p {
+    text-align: center;
+}
+.slider_span {
+    text-align: center;
+    display: block;
+}
+.slider_p {
+    margin-right: 0;
+    text-align: center;
+}
+.slider_p_2 {
+    margin-right: 0;
+    text-align: center;
+}
+.custom_btn1 {
+    position: absolute;
+    bottom: 300px;
+    left: 60px;
+    transform: rotate(0deg);
+}
+.custom_btn2 {
+    position: absolute;
+    transform: rotate(0deg);
+    bottom: 300px;
+}
+.s_design {
+   display: none;
+    }
+
+/*SLIDER PANNEL END*/
+    /*CONTACT US START*/
+    .c3_input {
+   width: 360px;
+    }
+    .c_input {
+        margin-top: 55px;
+   width: 220px;
+    }
+    .c2_input {
+   width: 360px;
+    }
+    /*CONTACT IS END*/
+     /*FOOTER START*/
+    .f_icon {
+    margin-bottom: 50px;
+   }
+   .f_icon i {
+    transition: .4s;
+    font-size: 26px;
+    border: 1px solid white;
+    color: white;
+    padding: 4px;
+    margin-right: 10px;
+}
+.f_a a {
+    padding-right: 14px;
+    color: white;
+    text-decoration: none;
+}
+    /*FOOTER END*/
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*HEADER START*/
+    .c_dd_menu[data-bs-popper] {
+    top: 50px;
+    left: 0px;
+}
+    /*HEADER END*/
+    /*SERVICE START*/
+    .arrow2 {
+   left: 143px !important;
+    }
+    .s_service {
+   margin-bottom: 60px;
+}
+    /*SERVICE END*/
+    /*ABOUT US START*/
+    .about_text p {
+    margin-bottom: 34px;
+    margin-right: 0;
+    font-size: 16px;
+}
+
+.about_text {
+    text-align: center;
+}
+
+.about_text h2 {
+   margin-top: 34px;
+}
+    /*ABOUT US END*/
+     /*SERVICE START*/
+    .service_icon {
+    text-align: center;
+}
+.s_text h5 {
+    margin-left: 0;
+   text-align: center;
+}
+.service_p {
+   text-align: center;
+}
+.single_service {
+    margin-top: 50px;
+}
+    /*SERVICE END*/
+    /*WHO WORK WITH US START*/
+    .w_single {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+    /*WHO WORK WITH US END*/
+    /*PRICING START*/
+    .p_single {
+    margin-top: 60px;
+    }
+    .p_btn {
+    width: 190px;
+    }
+    /*PRICING END*/
+    /*BUY START*/
+    .buy_btn {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 155px;
+    }
+    .b_h4 {
+    margin-top: 73px;
+    margin-bottom: 70px;
+    }
+    /*BUY END*/
+    /*SLIDER PANNEL START*/
+      .slider_text h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+.text_p {
+    text-align: center;
+}
+.slider_span {
+    text-align: center;
+    display: block;
+}
+.slider_p {
+    margin-right: 0;
+    text-align: center;
+}
+.slider_p_2 {
+    margin-right: 0;
+    text-align: center;
+}
+.custom_btn1 {
+    position: absolute;
+    transform: rotate(0deg);
+    left: 375px;
+    bottom: -50px;
+}
+.custom_btn2 {
+    position: absolute;
+    transform: rotate(0deg);
+    left: 270px;
+    bottom: -50px;
+}
+.s_design {
+    top: 20px;
+    left: 343px;
+    position: absolute;
+}
+
+/*SLIDER PANNEL END*/
+ /*CONTACT US START*/
+    .c3_input {
+   width: 600px;
+    }
+    .c_input {
+        margin-top: 55px;
+   width: 310px;
+    }
+    .c2_input {
+   width: 600px;
+    }
+    /*CONTACT IS END*/
+     /*FOOTER START*/
+    .f_icon {
+    margin-bottom: 50px;
+   }
+   .f_icon i {
+    transition: .4s;
+    font-size: 26px;
+    border: 1px solid white;
+    color: white;
+    padding: 4px;
+    margin-right: 10px;
+}
+.f_a a {
+    padding-right: 14px;
+    color: white;
+    text-decoration: none;
+}
+    /*FOOTER END*/
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*WHO WROK WITH US START*/
+    .w_text h2 {
+    font-size: 17px;
+    }
+    .w_icon {
+    padding: 2px 5px;
+    bottom: 27px;
+    }
+    .p_single {
+    margin-top: 65px;
+    }
+    /*WHO WORK WITH US END*/
+    /*PRICING START*/
+    .p_single {
+    padding-right: 29px;
+    }
+    .p_btn {
+   width: 150px;
+    }
+    /*PRICING END*/
+    /*BUY START*/
+    .b_h4 {
+    margin-top: 98px;
+    margin-bottom: 85px;
+    }
+    .buy_btn {
+    margin-top: 85px;
+    margin-bottom: 85px;
+    width: 135px;
+    }
+    /*BUY END*/
+    /*CONTACT US START*/
+    .c3_input {
+   width: 600px;
+    }
+    .c_input {
+        margin-top: 55px;
+   width: 310px;
+    }
+    .c2_input {
+   width: 600px;
+    }
+    /*CONTACT IS END*/
+    /*FOOTER START*/
+    .f_icon {
+    margin-bottom: 50px;
+   }
+   .f_icon i {
+    transition: .4s;
+    font-size: 26px;
+    border: 1px solid white;
+    color: white;
+    padding: 4px;
+    margin-right: 10px;
+}
+.f_a a {
+    padding-right: 18px;
+    color: white;
+    text-decoration: none;
+}
+    /*FOOTER END*/
+
+}
+
+  /*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /*SERVICE START*/
+    .arrow2 {
+   left: 106px !important;
+    }
+    /*SERVICE END*/
+    /*PRICING START*/
+    .p_btn {
+      width: 190px;
+    }
+    /*PRICING END*/
+
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
